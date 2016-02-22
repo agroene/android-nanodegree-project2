@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/movie_detail_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:nestedScrollingEnabled="true"
+        tools:context="com.elev8it.android_nanodegree_project1.MovieDetailActivityFragment"
+        tools:showIn="@layout/activity_movie_detail">
+
+        <TextView
+            android:id="@+id/movie_title_textview"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:text="Chappie"
+            android:background="#4db4b6"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/abc_text_size_display_2_material"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:phoneNumber="false"
+            android:fontFamily="sans-serif-condensed" />
+
+        <ImageView
+            android:id="@+id/movie_poster_img_dtls"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/movie_title_textview"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/movie_year_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/movie_poster_img_dtls"
+            android:layout_below="@id/movie_title_textview"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="30sp"
+            android:text="2015"/>
+
+        <TextView
+            android:id="@+id/movie_vote_ave_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:layout_toRightOf="@id/movie_poster_img_dtls"
+            android:layout_below="@id/movie_year_textview"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/movie_plot_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/movie_poster_img_dtls"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:fontFamily="sans-serif-condensed" />
+
+    </RelativeLayout>
+
+</ScrollView>

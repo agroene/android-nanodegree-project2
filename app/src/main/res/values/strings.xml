@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+
+    <string name="DEBUG_LOG" translatable="false">LOG_DEBUG</string>
+
+    <!-- The number of columns to display in the GridView of the Movie Overview Screen -->
+    <string name="gridview_num_cols" translatable="false">2</string>
+    <string name="tmdb_get_movies_url" translatable="false">https://api.themoviedb.org/3/movie/</string>
+
+    <!-- ENTER YOUR MOVIEDB API KEY BELOW -->
+    <string name="tmdb_api_key" translatable="false">ENTER_YOUR_API_KEY HERE</string>
+    <!-- ENTER YOUR MOVIEDB API KEY ABOVE -->
+
+    <string name="tmdb_get_movie_poster_url" translatable="false">http://image.tmdb.org/t/p/w185/</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="pref_sort_by_title">Sort By</string>
+    <string name="pref_sort_by_key">sort_by</string>
+
+    <string-array name="pref_sort_list_entries">
+        <item>Most Popular</item>
+        <item>Top Rated</item>
+    </string-array>
+
+    <string-array name="pref_sort_list_values">
+        <item>popular</item>
+        <item>top_rated</item>
+    </string-array>
+
+
+    <string name="movie_parcelable_key">MovieParcelable</string>
+
+</resources>
